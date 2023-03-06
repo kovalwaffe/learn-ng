@@ -1,0 +1,10 @@
+<div class="container mt-5">
+  <h2>Create new user</h2>
+  <app-user-form-create (formChange)="formChange($event)"></app-user-form-create>
+  <button (click)="register()" class="btn" [disabled]="!form.valid"
+          [ngClass]="{'btn-success': form.valid, 'btn-secondary': !form.valid}">Register</button>
+</div>
+<div class="container mt-5">
+  <h2>Preview existing user</h2>
+  <app-user-form-show [isReadonly]="true"></app-user-form-show>
+</div>

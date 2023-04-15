@@ -1,13 +1,26 @@
-function* generateSequence() {
-  yield 1;
-  yield 2;
-  return 3;
+class Foo {
+  ass: any;
+  a: any;
 }
-const generator = generateSequence();
-console.log(generator.next()); // { value: 1, done: false }
-console.log(generator.next()); // { value: 1, done: false }
-console.log(generator.next()); // { value: 3, done: true }
-console.log(generator.next()); // { value: undefined, done: true }
+const message = new Foo();
+console.log(message);
+
+function Message(params) {
+  this.params = params;
+}
+
+const r = new Message('Hello');
+
+// function* generateSequence() {
+//   yield 1;
+//   yield 2;
+//   return 3;
+// }
+// const generator = generateSequence();
+// console.log(generator.next()); // { value: 1, done: false }
+// console.log(generator.next()); // { value: 1, done: false }
+// console.log(generator.next()); // { value: 3, done: true }
+// console.log(generator.next()); // { value: undefined, done: true }
 
 
 // const words: string[] = ['Pablo', 'Diablo', 'Staś'];

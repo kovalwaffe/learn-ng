@@ -19,6 +19,7 @@ import { SumFormsComponent } from './form-view-child/sum-forms/sum-forms.compone
 import { OrderFormComponent } from './form-view-child/order-form/order-form.component';
 import { DataPickerComponent } from './formatter/data-picker.component';
 import { ConsumerComponent } from './formatter/consumer.component';
+import { ColdComponent } from './reactive/cold/cold/cold.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ConsumerComponent } from './formatter/consumer.component';
     SumFormsComponent,
     OrderFormComponent,
     DataPickerComponent,
-    ConsumerComponent
+    ConsumerComponent,
+    ColdComponent
   ],
     imports: [
         BrowserModule,

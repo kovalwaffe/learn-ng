@@ -12,10 +12,23 @@ export class ColdComponent implements OnInit {
   public anotherSource$ = new Observable();
 
   ngOnInit(): void {
-    const timeStamp  = 'time';
-    this.source$.subscribe((x) => console.log(`Subscrybent 1: ${x} timestanp: `));
+    const timeStamp = 'time';
+    this.source$.subscribe((x) =>
+      console.log(`Subscrybent 1: ${x} timestanp: `)
+    );
     setTimeout(() => {
-      this.source$.subscribe((x) => console.log(`Subscrybent 2: ${x} timestanp: ${x}.timestanp`));
+      this.source$.subscribe((x) =>
+        console.log(`Subscrybent 2: ${x} timestanp: ${x}.timestanp`)
+      );
     }, 5000);
+
+    const enum Status {
+      RUNNING = 'Running',
+      TIMEOUT = 'Timeout',
+      DISABLED = 'Disabled',
+    }
+    const runner = (status: Status) => console.log(`the status is: ${status}`);
+    runner(Status.RUNNING); // 'the status is: running'
+    // runner(Stoped); // Nie można przypisać argumentu typu Stoped to parametru 'Status'
   }
 }

@@ -1,15 +1,18 @@
-class Foo {
-  ass: any;
-  a: any;
-}
-const message = new Foo();
-console.log(message);
 
-function Message(params) {
-  this.params = params;
-}
 
-const r = new Message('Hello');
+
+// class Foo {
+//   ass: any;
+//   a: any;
+// }
+// const message = new Foo();
+// console.log(message);
+
+// function Message(params) {
+//   this.params = params;
+// }
+
+// const r = new Message('Hello');
 
 // function* generateSequence() {
 //   yield 1;

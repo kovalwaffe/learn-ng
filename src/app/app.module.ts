@@ -19,6 +19,7 @@ import { UserFormShowComponent } from './forms/forms-inheritance/user-form/user-
 import { OrderFormComponent } from './forms/form-view-child/order-form/order-form.component';
 import { SumFormsComponent } from './forms/form-view-child/sum-forms/sum-forms.component';
 import { UserFormCreateComponent } from './forms/forms-inheritance/user-form/user-form-create/user-form-create.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { UserFormCreateComponent } from './forms/forms-inheritance/user-form/use
     OrderFormComponent,
     DataPickerComponent,
     ConsumerComponent,
-    ColdComponent
+    ColdComponent,
+    TestComponent
   ],
     imports: [
         BrowserModule,

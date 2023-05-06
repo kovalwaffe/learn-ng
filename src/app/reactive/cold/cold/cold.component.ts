@@ -12,6 +12,7 @@ export class ColdComponent implements OnInit {
   public anotherSource$ = new Observable();
 
   ngOnInit(): void {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const timeStamp = 'time';
     this.source$.subscribe((x) =>
       console.log(`Subscrybent 1: ${x} timestanp: `)

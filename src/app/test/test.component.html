@@ -1,0 +1,9 @@
+<form [formGroup]="myFormGroup" (ngSubmit)="onSubmit()">
+  <input type="text" [formControl]="myFormGroup.controls.name">
+  <div formGroupName="address">
+      <input type="text" formControlName="streetAddress">
+      <input type="number" formControlName="numberOfHome">
+  </div>
+  <button type="submit" [disabled]="myFormGroup.invalid">Wyślij</button>
+  <button (click)="onReset()" [disabled]="myFormGroup.invalid">reset</button>
+</form>

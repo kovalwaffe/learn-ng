@@ -16,6 +16,7 @@ export class CarDataComponent {
   ];
 
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   protected onRowSelected(event: Car): void {
     console.log('on row selected');
   }

@@ -21,6 +21,7 @@ import { SumFormsComponent } from './forms/form-view-child/sum-forms/sum-forms.c
 import { UserFormCreateComponent } from './forms/forms-inheritance/user-form/user-form-create/user-form-create.component';
 import { TestComponent } from './test/test.component';
 import { ErrorsComponent } from './errors/errors.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { ErrorsComponent } from './errors/errors.component';
         BrowserModule,
         AppRoutingModule,
         StandComponent,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        HttpClientModule
     ],
   providers: [
     {provide: FILE_UPLOADER_GLOBAL_CONFIG, useValue: { url: 'my injected global url' }}

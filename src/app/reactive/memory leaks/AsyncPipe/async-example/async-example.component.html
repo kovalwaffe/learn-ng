@@ -1,0 +1,7 @@
+<p>async-example works!</p>
+@if ({beginnerCourse: (courses$ | async), advancedCourses: (otherCourses$ | async)}; as data) {
+<div>
+  <h3>Piekne kursy</h3>
+  <app-display-table [data]="data.beginnerCourse"></app-display-table>
+</div>
+}

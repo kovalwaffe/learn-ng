@@ -22,6 +22,7 @@ import { UserFormCreateComponent } from './forms/forms-inheritance/user-form/use
 import { TestComponent } from './test/test.component';
 import { ErrorsComponent } from './errors/errors.component';
 import { HttpClientModule } from '@angular/common/http';
+import {AsyncExampleComponent} from "./reactive/memory leaks/AsyncPipe/async-example/async-example.component";
 
 @NgModule({
   declarations: [
@@ -48,7 +49,9 @@ import { HttpClientModule } from '@angular/common/http';
         AppRoutingModule,
         StandComponent,
         ReactiveFormsModule,
-        HttpClientModule
+        HttpClientModule,
+        AsyncExampleComponent,
+        AsyncExampleComponent
     ],
   providers: [
     {provide: FILE_UPLOADER_GLOBAL_CONFIG, useValue: { url: 'my injected global url' }}

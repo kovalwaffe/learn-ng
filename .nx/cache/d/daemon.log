@@ -1,0 +1,471 @@
+[NX Daemon Server] - 2024-02-07T18:05:21.230Z - Started listening on: \\.\pipe\nx\C:\Users\KONSUL~1\AppData\Local\Temp\556d2882fc22a585ef74\d.sock
+[NX Daemon Server] - 2024-02-07T18:05:21.239Z - [WATCHER]: Subscribed to changes within: C:\Repo\learn-ng (native)
+[NX Daemon Server] - 2024-02-07T18:05:21.241Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-07T18:05:21.244Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-07T18:05:21.246Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-07T18:05:21.249Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-07T18:05:21.255Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:05:21.256Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:05:21.256Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:05:21.408Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-07T18:05:21.410Z - Time taken for 'total for creating and serializing project graph' 158.18149995803833ms
+[NX Daemon Server] - 2024-02-07T18:05:21.413Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-07T18:05:21.413Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 158. Response time: 6.
+[NX Daemon Server] - 2024-02-07T18:05:21.415Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-07T18:06:19.100Z - [WATCHER]: src/app/reactive/memory leaks/services/example.service.ts was modified
+[NX Daemon Server] - 2024-02-07T18:06:19.103Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:06:19.104Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:06:19.105Z - Time taken for 'changed-projects' 0.07859998941421509ms
+[NX Daemon Server] - 2024-02-07T18:06:19.105Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:06:19.105Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-02-07T18:06:19.218Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:06:19.218Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts
+[NX Daemon Server] - 2024-02-07T18:06:19.218Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:06:19.260Z - Time taken for 'hash changed files from watcher' 0.3288000226020813ms
+[NX Daemon Server] - 2024-02-07T18:06:20.538Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:06:20.540Z - [WATCHER]: src/app/reactive/memory leaks/model/course.ts was created or restored
+[NX Daemon Server] - 2024-02-07T18:06:20.651Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:06:20.652Z - [REQUEST]: src/app/reactive/memory leaks/model/course.ts
+[NX Daemon Server] - 2024-02-07T18:06:20.652Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:06:20.701Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:06:20.702Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:06:20.702Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:06:20.702Z - Time taken for 'hash changed files from watcher' 0.734000027179718ms
+[NX Daemon Server] - 2024-02-07T18:07:09.421Z - [WATCHER]: src/app/reactive/memory leaks/model/course.ts was modified
+[NX Daemon Server] - 2024-02-07T18:07:09.422Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:07:09.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:07:09.423Z - Time taken for 'changed-projects' 0.16339999437332153ms
+[NX Daemon Server] - 2024-02-07T18:07:09.423Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:07:09.423Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:07:09.622Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:07:09.622Z - [REQUEST]: src/app/reactive/memory leaks/model/course.ts
+[NX Daemon Server] - 2024-02-07T18:07:09.622Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:07:09.679Z - Time taken for 'hash changed files from watcher' 0.5616999864578247ms
+[NX Daemon Server] - 2024-02-07T18:07:09.955Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:07:10.156Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:07:10.237Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:10:42.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:10:42.694Z - [WATCHER]: src/app/reactive/memory leaks/services/example.service.ts was modified
+[NX Daemon Server] - 2024-02-07T18:10:42.695Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:10:42.695Z - Time taken for 'changed-projects' 0.05740004777908325ms
+[NX Daemon Server] - 2024-02-07T18:10:42.696Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:10:42.696Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:10:43.100Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:10:43.101Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts
+[NX Daemon Server] - 2024-02-07T18:10:43.101Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:10:43.171Z - Time taken for 'hash changed files from watcher' 0.5628000497817993ms
+[NX Daemon Server] - 2024-02-07T18:11:19.978Z - [WATCHER]: src/app/reactive/memory leaks/services/example.service.ts was modified
+[NX Daemon Server] - 2024-02-07T18:11:19.978Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:11:19.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:11:19.979Z - Time taken for 'changed-projects' 0.033199965953826904ms
+[NX Daemon Server] - 2024-02-07T18:11:19.979Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:11:19.979Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:11:20.072Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:11:20.786Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:11:20.787Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts
+[NX Daemon Server] - 2024-02-07T18:11:20.787Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:11:20.819Z - Time taken for 'hash changed files from watcher' 0.731499969959259ms
+[NX Daemon Server] - 2024-02-07T18:12:16.761Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:12:16.765Z - [WATCHER]: src/app/reactive/memory leaks/services/example.service.ts was modified
+[NX Daemon Server] - 2024-02-07T18:12:16.767Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:12:16.768Z - Time taken for 'changed-projects' 0.0900999903678894ms
+[NX Daemon Server] - 2024-02-07T18:12:16.768Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:12:16.768Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:12:18.372Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:12:18.373Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts
+[NX Daemon Server] - 2024-02-07T18:12:18.373Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:12:18.416Z - Time taken for 'hash changed files from watcher' 0.38599997758865356ms
+[NX Daemon Server] - 2024-02-07T18:15:52.006Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:15:52.039Z - [WATCHER]: src/app/reactive/memory leaks/services/example.service.ts was modified
+[NX Daemon Server] - 2024-02-07T18:15:52.040Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:15:52.040Z - Time taken for 'changed-projects' 0.06709998846054077ms
+[NX Daemon Server] - 2024-02-07T18:15:52.040Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:15:52.040Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-07T18:15:55.241Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:15:55.241Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts
+[NX Daemon Server] - 2024-02-07T18:15:55.241Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:15:55.282Z - Time taken for 'hash changed files from watcher' 0.7746000289916992ms
+[NX Daemon Server] - 2024-02-07T18:16:37.373Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:16:37.379Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-02-07T18:16:37.381Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:16:37.381Z - Time taken for 'changed-projects' 0.069100022315979ms
+[NX Daemon Server] - 2024-02-07T18:16:37.382Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:16:37.382Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:16:37.467Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:16:43.794Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:16:43.794Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts,src/app/reactive/memory leaks/model/course.ts
+[NX Daemon Server] - 2024-02-07T18:16:43.794Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:16:43.829Z - Time taken for 'hash changed files from watcher' 2.505400002002716ms
+[NX Daemon Server] - 2024-02-07T18:16:57.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:17:19.764Z - [WATCHER]: src/app/reactive/memory leaks/services/example.service.ts was modified
+[NX Daemon Server] - 2024-02-07T18:17:19.765Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:17:19.765Z - Time taken for 'changed-projects' 0.03240001201629639ms
+[NX Daemon Server] - 2024-02-07T18:17:19.765Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:17:19.765Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:17:19.765Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-07T18:17:26.169Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:17:26.170Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts
+[NX Daemon Server] - 2024-02-07T18:17:26.170Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:17:26.213Z - Time taken for 'hash changed files from watcher' 0.6832000017166138ms
+[NX Daemon Server] - 2024-02-07T18:18:01.196Z - [WATCHER]: src/app/reactive/memory leaks/services/example.service.ts was modified
+[NX Daemon Server] - 2024-02-07T18:18:01.196Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:18:01.197Z - Time taken for 'changed-projects' 0.032199978828430176ms
+[NX Daemon Server] - 2024-02-07T18:18:01.197Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:18:01.197Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:18:01.197Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:18:07.602Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:18:07.602Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts
+[NX Daemon Server] - 2024-02-07T18:18:07.602Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:18:07.635Z - Time taken for 'hash changed files from watcher' 0.3623000383377075ms
+[NX Daemon Server] - 2024-02-07T18:19:08.680Z - [WATCHER]: 4 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-02-07T18:19:08.680Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:19:08.789Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:19:08.789Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.ts,src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.spec.ts,src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.scss,src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html
+[NX Daemon Server] - 2024-02-07T18:19:08.789Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:19:08.884Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:19:08.885Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:19:08.886Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-02-07T18:19:08.887Z - Time taken for 'hash changed files from watcher' 1.6514999866485596ms
+[NX Daemon Server] - 2024-02-07T18:19:29.408Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:19:29.413Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2024-02-07T18:19:29.415Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:19:29.416Z - Time taken for 'changed-projects' 0.40829998254776ms
+[NX Daemon Server] - 2024-02-07T18:19:29.416Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:19:29.416Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:19:29.626Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:19:29.627Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:19:29.627Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.scss,src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.spec.ts
+[NX Daemon Server] - 2024-02-07T18:19:29.773Z - Time taken for 'hash changed files from watcher' 0.34200000762939453ms
+[NX Daemon Server] - 2024-02-07T18:19:40.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:19:40.494Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX Daemon Server] - 2024-02-07T18:19:40.494Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:19:40.494Z - Time taken for 'changed-projects' 0.045400023460388184ms
+[NX Daemon Server] - 2024-02-07T18:19:40.494Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:19:40.494Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-07T18:19:40.904Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:19:40.904Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:19:40.904Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.scss,src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.spec.ts
+[NX Daemon Server] - 2024-02-07T18:19:40.956Z - Time taken for 'hash changed files from watcher' 0.4373999834060669ms
+[NX Daemon Server] - 2024-02-07T18:22:10.985Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:22:10.989Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-02-07T18:22:10.992Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:22:10.993Z - Time taken for 'changed-projects' 0.5031999945640564ms
+[NX Daemon Server] - 2024-02-07T18:22:10.993Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:22:10.993Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:22:11.802Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:22:11.802Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html,src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.ts
+[NX Daemon Server] - 2024-02-07T18:22:11.802Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:22:11.836Z - Time taken for 'hash changed files from watcher' 0.7896999716758728ms
+[NX Daemon Server] - 2024-02-07T18:23:03.980Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:23:03.981Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html was modified
+[NX Daemon Server] - 2024-02-07T18:23:03.982Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:23:03.982Z - Time taken for 'changed-projects' 0.02899998426437378ms
+[NX Daemon Server] - 2024-02-07T18:23:03.982Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:23:03.982Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-07T18:23:04.404Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:23:05.597Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:23:05.597Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html
+[NX Daemon Server] - 2024-02-07T18:23:05.597Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:23:05.635Z - Time taken for 'hash changed files from watcher' 0.614799976348877ms
+[NX Daemon Server] - 2024-02-07T18:24:44.848Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:24:44.850Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html was modified
+[NX Daemon Server] - 2024-02-07T18:24:44.851Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:24:44.854Z - Time taken for 'changed-projects' 0.07239997386932373ms
+[NX Daemon Server] - 2024-02-07T18:24:44.855Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:24:44.855Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-02-07T18:24:44.918Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:24:48.056Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:24:48.056Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html
+[NX Daemon Server] - 2024-02-07T18:24:48.056Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:24:48.090Z - Time taken for 'hash changed files from watcher' 0.3579999804496765ms
+[NX Daemon Server] - 2024-02-07T18:25:42.741Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:25:42.757Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:25:42.758Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:25:42.759Z - Time taken for 'changed-projects' 0.10430002212524414ms
+[NX Daemon Server] - 2024-02-07T18:25:42.759Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:25:42.759Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:25:49.168Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:25:49.168Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts
+[NX Daemon Server] - 2024-02-07T18:25:49.168Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:25:49.208Z - Time taken for 'hash changed files from watcher' 0.7052000164985657ms
+[NX Daemon Server] - 2024-02-07T18:27:51.818Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:27:51.820Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:27:51.821Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:27:51.821Z - Time taken for 'changed-projects' 0.08320003747940063ms
+[NX Daemon Server] - 2024-02-07T18:27:51.821Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:27:51.821Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:27:58.235Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:27:58.235Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts
+[NX Daemon Server] - 2024-02-07T18:27:58.235Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:27:58.277Z - Time taken for 'hash changed files from watcher' 0.6347999572753906ms
+[NX Daemon Server] - 2024-02-07T18:32:25.264Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-02-07T18:32:25.266Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:32:25.266Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:32:25.267Z - Time taken for 'changed-projects' 0.040400028228759766ms
+[NX Daemon Server] - 2024-02-07T18:32:25.267Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:32:25.267Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:32:25.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:32:31.669Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:32:31.669Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.html,src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.ts,src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts
+[NX Daemon Server] - 2024-02-07T18:32:31.669Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:32:31.706Z - Time taken for 'hash changed files from watcher' 0.5867999792098999ms
+[NX Daemon Server] - 2024-02-07T18:32:58.795Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-02-07T18:32:58.796Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:32:58.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:32:58.803Z - Time taken for 'changed-projects' 0.04369997978210449ms
+[NX Daemon Server] - 2024-02-07T18:32:58.804Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:32:58.804Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 8.
+[NX Daemon Server] - 2024-02-07T18:33:05.211Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:33:05.211Z - [REQUEST]: src/app/app.component.html,src/app/app.module.ts
+[NX Daemon Server] - 2024-02-07T18:33:05.211Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:33:05.245Z - Time taken for 'hash changed files from watcher' 0.8116999864578247ms
+[NX Daemon Server] - 2024-02-07T18:33:12.038Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:12.100Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:21.684Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:21.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:22.026Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:22.102Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:22.181Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:22.238Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:22.299Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:22.412Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:22.508Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:23.703Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:23.800Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:23.873Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:23.952Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:23.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.068Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.134Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.246Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.311Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.370Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.486Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.566Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.628Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.692Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:24.865Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:25.087Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:25.163Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:25.479Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:26.677Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:26.737Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:26.801Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:26.895Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:27.159Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:27.459Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:27.787Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:27.881Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.260Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.384Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.477Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.534Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.586Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.642Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.703Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.809Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.872Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.931Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:28.984Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.041Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.098Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.157Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.228Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.288Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.347Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.398Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.474Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.528Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.581Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.641Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.692Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.750Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.807Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.859Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.915Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:29.970Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:30.021Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:30.080Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:30.146Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:30.206Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:30.261Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:30.312Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:30.368Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:30.432Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:34.838Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:35.043Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:33:36.038Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:34:35.408Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:34:35.412Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:34:35.413Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:34:35.414Z - Time taken for 'changed-projects' 0.04180002212524414ms
+[NX Daemon Server] - 2024-02-07T18:34:35.414Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:34:35.414Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:34:35.479Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:34:36.266Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:34:41.829Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:34:41.829Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts
+[NX Daemon Server] - 2024-02-07T18:34:41.829Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:34:41.865Z - Time taken for 'hash changed files from watcher' 0.3748999834060669ms
+[NX Daemon Server] - 2024-02-07T18:34:53.661Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:34:53.784Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:05.842Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:05.844Z - [WATCHER]: src/app/errors/errors.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:35:05.845Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:35:05.845Z - Time taken for 'changed-projects' 0.04189997911453247ms
+[NX Daemon Server] - 2024-02-07T18:35:05.846Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:35:05.846Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:35:05.902Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:06.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:07.649Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:07.704Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:08.139Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:08.268Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:12.246Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:35:12.246Z - [REQUEST]: src/app/errors/errors.component.ts
+[NX Daemon Server] - 2024-02-07T18:35:12.246Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:35:12.283Z - Time taken for 'hash changed files from watcher' 0.45649999380111694ms
+[NX Daemon Server] - 2024-02-07T18:35:46.206Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:46.208Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-02-07T18:35:46.209Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:35:46.209Z - Time taken for 'changed-projects' 0.11880004405975342ms
+[NX Daemon Server] - 2024-02-07T18:35:46.210Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:35:46.210Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:35:46.284Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:47.151Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:35:52.624Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:35:52.624Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.ts,src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html
+[NX Daemon Server] - 2024-02-07T18:35:52.624Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:35:52.673Z - Time taken for 'hash changed files from watcher' 0.692799985408783ms
+[NX Daemon Server] - 2024-02-07T18:36:16.806Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html was modified
+[NX Daemon Server] - 2024-02-07T18:36:16.807Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:36:16.807Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:36:16.807Z - Time taken for 'changed-projects' 0.037199974060058594ms
+[NX Daemon Server] - 2024-02-07T18:36:16.807Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:36:16.807Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-07T18:36:16.858Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:36:17.033Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:36:23.207Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:36:23.207Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.html
+[NX Daemon Server] - 2024-02-07T18:36:23.207Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:36:23.239Z - Time taken for 'hash changed files from watcher' 0.5192999839782715ms
+[NX Daemon Server] - 2024-02-07T18:36:54.642Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:36:54.643Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:36:54.643Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:36:54.643Z - Time taken for 'changed-projects' 0.045499980449676514ms
+[NX Daemon Server] - 2024-02-07T18:36:54.643Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:36:54.643Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-07T18:36:54.718Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:36:54.902Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:36:56.174Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:36:56.284Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:37:01.051Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:37:01.052Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/display-table/display-table.component.ts
+[NX Daemon Server] - 2024-02-07T18:37:01.052Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:37:01.083Z - Time taken for 'hash changed files from watcher' 0.3588000535964966ms
+[NX Daemon Server] - 2024-02-07T18:37:17.971Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:37:17.971Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:37:17.972Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:37:17.972Z - Time taken for 'changed-projects' 0.0372999906539917ms
+[NX Daemon Server] - 2024-02-07T18:37:17.972Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:37:17.972Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:37:18.049Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:37:18.688Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:37:24.388Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:37:24.388Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts
+[NX Daemon Server] - 2024-02-07T18:37:24.388Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:37:24.431Z - Time taken for 'hash changed files from watcher' 0.6083999872207642ms
+[NX Daemon Server] - 2024-02-07T18:38:19.175Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:38:19.238Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:38:19.428Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:38:19.823Z - [WATCHER]: src/app/reactive/memory leaks/services/example.service.ts was modified
+[NX Daemon Server] - 2024-02-07T18:38:19.823Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:38:19.824Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:38:19.824Z - Time taken for 'changed-projects' 0.0493999719619751ms
+[NX Daemon Server] - 2024-02-07T18:38:19.824Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:38:19.824Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-02-07T18:38:19.944Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:38:20.644Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:38:26.232Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:38:26.233Z - [REQUEST]: src/app/reactive/memory leaks/services/example.service.ts
+[NX Daemon Server] - 2024-02-07T18:38:26.233Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:38:26.272Z - Time taken for 'hash changed files from watcher' 0.8040000200271606ms
+[NX Daemon Server] - 2024-02-07T18:39:20.970Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:39:21.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:39:54.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:39:54.696Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:39:54.697Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:39:54.699Z - Time taken for 'changed-projects' 0.07260000705718994ms
+[NX Daemon Server] - 2024-02-07T18:39:54.699Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:39:54.699Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-02-07T18:39:55.723Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:39:56.966Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:40:01.104Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:40:01.104Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts
+[NX Daemon Server] - 2024-02-07T18:40:01.104Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:40:01.147Z - Time taken for 'hash changed files from watcher' 0.5121999979019165ms
+[NX Daemon Server] - 2024-02-07T18:40:12.130Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:40:12.131Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:40:12.131Z - Time taken for 'changed-projects' 0.03670001029968262ms
+[NX Daemon Server] - 2024-02-07T18:40:12.131Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:40:12.131Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:40:12.131Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-07T18:40:12.445Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:40:18.535Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:40:18.535Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts
+[NX Daemon Server] - 2024-02-07T18:40:18.535Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:40:18.573Z - Time taken for 'hash changed files from watcher' 0.3869999647140503ms
+[NX Daemon Server] - 2024-02-07T18:41:13.065Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:42:24.748Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:42:24.750Z - [WATCHER]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts was modified
+[NX Daemon Server] - 2024-02-07T18:42:24.750Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-07T18:42:24.750Z - Time taken for 'changed-projects' 0.023099958896636963ms
+[NX Daemon Server] - 2024-02-07T18:42:24.750Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-07T18:42:24.750Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-02-07T18:42:25.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T18:42:31.153Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-07T18:42:31.153Z - [REQUEST]: src/app/reactive/memory leaks/AcyncPipe/async-example/async-example.component.ts
+[NX Daemon Server] - 2024-02-07T18:42:31.153Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-07T18:42:31.235Z - Time taken for 'hash changed files from watcher' 1.4890000224113464ms
+[NX Daemon Server] - 2024-02-07T18:43:25.644Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T20:40:30.776Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-07T21:42:24.776Z - There are 2 open connections. Reset inactivity timer.
+[NX Daemon Server] - 2024-02-12T20:05:09.613Z - Started listening on: \\.\pipe\nx\C:\Users\KONSUL~1\AppData\Local\Temp\556d2882fc22a585ef74\d.sock
+[NX Daemon Server] - 2024-02-12T20:05:09.624Z - [WATCHER]: Subscribed to changes within: C:\Repo\learn-ng (native)
+[NX Daemon Server] - 2024-02-12T20:05:09.626Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-12T20:05:09.628Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-12T20:05:09.631Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-12T20:05:09.634Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-12T20:05:09.641Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-12T20:05:09.641Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-12T20:05:09.641Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-12T20:05:09.876Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-12T20:05:09.878Z - Time taken for 'total for creating and serializing project graph' 241.62049999833107ms
+[NX Daemon Server] - 2024-02-12T20:05:09.882Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-12T20:05:09.882Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 241. Response time: 7.
+[NX Daemon Server] - 2024-02-12T20:05:09.885Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-12T20:05:56.974Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:05:57.028Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:05:57.090Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:05:57.356Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:46.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:46.167Z - [WATCHER]: src/app/app.module.ts was modified
+[NX Daemon Server] - 2024-02-12T20:06:46.169Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-02-12T20:06:46.170Z - Time taken for 'changed-projects' 0.13010001182556152ms
+[NX Daemon Server] - 2024-02-12T20:06:46.171Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-02-12T20:06:46.171Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-02-12T20:06:46.271Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-12T20:06:46.271Z - [REQUEST]: src/app/app.module.ts
+[NX Daemon Server] - 2024-02-12T20:06:46.271Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-12T20:06:46.359Z - Time taken for 'hash changed files from watcher' 0.8942999839782715ms
+[NX Daemon Server] - 2024-02-12T20:06:47.516Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:48.630Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:48.867Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:49.039Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:50.445Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:50.548Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:51.594Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:51.687Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:51.749Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-02-12T20:06:51.874Z - [WATCHER]: Processing file changes in outputs

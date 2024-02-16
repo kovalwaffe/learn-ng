@@ -1,12 +1,13 @@
 import {Component, Input} from '@angular/core';
 import {Course} from "../../model/course";
-import {DatePipe} from "@angular/common";
+import {DatePipe, JsonPipe} from "@angular/common";
 
 @Component({
   selector: 'app-display-table',
   standalone: true,
   imports: [
-    DatePipe
+    DatePipe,
+    JsonPipe
   ],
   templateUrl: './display-table.component.html'
 })

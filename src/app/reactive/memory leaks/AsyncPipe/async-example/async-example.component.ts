@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { Course } from '../../model/course';
 import { ExampleService } from '../../services/example.service';
 import { AsyncPipe } from '@angular/common';
-import { DisplayTableComponent } from '../display-table/display-table.component';
+import { DisplayTableComponent } from '../../shared/display-table/display-table.component';
 
 @Component({
   selector: 'app-async-example',

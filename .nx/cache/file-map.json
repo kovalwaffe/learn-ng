@@ -86,11 +86,11 @@
       },
       {
         "file": "src/app/app-routing.module.ts",
-        "hash": "15638978050551223935"
+        "hash": "2761419842767691564"
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "5525347484825919238"
+        "hash": "13968880743329720410"
       },
       {
         "file": "src/app/app.component.scss",
@@ -106,7 +106,7 @@
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "6455114249457003779"
+        "hash": "15445576891147723122"
       },
       {
         "file": "src/app/errors/errors.component.html",
@@ -346,23 +346,43 @@
       },
       {
         "file": "src/app/reactive/memory leaks/AsyncPipe/async-example/async-example.component.ts",
-        "hash": "14017136253137349916"
-      },
-      {
-        "file": "src/app/reactive/memory leaks/AsyncPipe/display-table/display-table.component.html",
-        "hash": "5923824200905211914"
-      },
-      {
-        "file": "src/app/reactive/memory leaks/AsyncPipe/display-table/display-table.component.ts",
-        "hash": "2724748941184052349"
+        "hash": "8538975518949976349"
       },
       {
         "file": "src/app/reactive/memory leaks/model/course.ts",
         "hash": "15688175593838344437"
       },
       {
+        "file": "src/app/reactive/memory leaks/resolver/home-r/home-r.component.html",
+        "hash": "15240998434571562765"
+      },
+      {
+        "file": "src/app/reactive/memory leaks/resolver/home-r/home-r.component.ts",
+        "hash": "7395700991900672159"
+      },
+      {
+        "file": "src/app/reactive/memory leaks/resolver/resolvers/home.resolver.ts",
+        "hash": "467665885336619445"
+      },
+      {
         "file": "src/app/reactive/memory leaks/services/example.service.ts",
         "hash": "10799074045674510406"
+      },
+      {
+        "file": "src/app/reactive/memory leaks/shared/display-table/display-table.component.html",
+        "hash": "5362314941237269882"
+      },
+      {
+        "file": "src/app/reactive/memory leaks/shared/display-table/display-table.component.ts",
+        "hash": "952286036548662878"
+      },
+      {
+        "file": "src/app/reactive/memory leaks/take-until-destroyed/take-until-destroyed.component.html",
+        "hash": "8129900568751528513"
+      },
+      {
+        "file": "src/app/reactive/memory leaks/take-until-destroyed/take-until-destroyed.component.ts",
+        "hash": "9869482603121011799"
       },
       {
         "file": "src/app/route/functional-route-guards/functional-route-guards-routing.module.ts",

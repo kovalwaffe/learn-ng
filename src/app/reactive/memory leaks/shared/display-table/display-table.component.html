@@ -1,4 +1,5 @@
 <p>Courses</p>
-@for(course of data; track course.id; let idx = $index, e = $even) {
+@for (course of data; track course.id; let idx = $index, e = $even) {
   <p>item: {{ idx }}: {{ course.title }} data: {{ course.dateCreate | date: 'short' }} : {{ e }}</p>
 }
+ble

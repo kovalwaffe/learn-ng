@@ -23,6 +23,7 @@ import { TestComponent } from './test/test.component';
 import { ErrorsComponent } from './errors/errors.component';
 import { HttpClientModule } from '@angular/common/http';
 import {AsyncExampleComponent} from "./reactive/memory leaks/AsyncPipe/async-example/async-example.component";
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import {AsyncExampleComponent} from "./reactive/memory leaks/AsyncPipe/async-exa
         AsyncExampleComponent
     ],
   providers: [
-    {provide: FILE_UPLOADER_GLOBAL_CONFIG, useValue: { url: 'my injected global url' }}
+    {provide: FILE_UPLOADER_GLOBAL_CONFIG, useValue: { url: 'my injected global url' }},
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })

@@ -60,15 +60,15 @@
       },
       {
         "file": "angular.json",
-        "hash": "16876843365584518269"
+        "hash": "2606236310472113635"
       },
       {
         "file": "package-lock.json",
-        "hash": "1226319778259011950"
+        "hash": "16581119077679960146"
       },
       {
         "file": "package.json",
-        "hash": "10447038556911749224"
+        "hash": "3265616781159344973"
       },
       {
         "file": "src/app/TS/class/inheritance.ts",
@@ -88,11 +88,11 @@
       },
       {
         "file": "src/app/app-routing.module.ts",
-        "hash": "2761419842767691564"
+        "hash": "6314981189268698826"
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "13968880743329720410"
+        "hash": "18076344735453585807"
       },
       {
         "file": "src/app/app.component.scss",
@@ -104,11 +104,11 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "11721000226361373504"
+        "hash": "17989703748482062235"
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "15445576891147723122"
+        "hash": "15736044896780319341"
       },
       {
         "file": "src/app/errors/errors.component.html",
@@ -165,6 +165,18 @@
       {
         "file": "src/app/formatter/formatter.service.ts",
         "hash": "9045991813887179727"
+      },
+      {
+        "file": "src/app/forms/form-test/form-test.component.html",
+        "hash": "12697276441346318718"
+      },
+      {
+        "file": "src/app/forms/form-test/form-test.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/forms/form-test/form-test.component.ts",
+        "hash": "11201965959460474353"
       },
       {
         "file": "src/app/forms/form-view-child/dictionary.service.spec.ts",
@@ -423,6 +435,14 @@
         "hash": "13567853238001864667"
       },
       {
+        "file": "src/app/signal/signal-inputs/signal-inputs.component.html",
+        "hash": "12357865357344565657"
+      },
+      {
+        "file": "src/app/signal/signal-inputs/signal-inputs.component.ts",
+        "hash": "1193428098363328756"
+      },
+      {
         "file": "src/app/stand/stand.component.html",
         "hash": "13156257890206167571"
       },
@@ -468,7 +488,7 @@
       },
       {
         "file": "src/index.html",
-        "hash": "6794183116580047369"
+        "hash": "8860524839350807400"
       },
       {
         "file": "src/main.ts",
@@ -476,7 +496,7 @@
       },
       {
         "file": "src/styles.scss",
-        "hash": "2917954890128038984"
+        "hash": "1619517860747131107"
       },
       {
         "file": "tsconfig.app.json",

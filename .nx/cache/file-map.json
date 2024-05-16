@@ -52,11 +52,11 @@
       },
       {
         "file": ".gitignore",
-        "hash": "4689145951703824387"
+        "hash": "13619974266259341693"
       },
       {
         "file": "README.md",
-        "hash": "10231537717098405832"
+        "hash": "7319857865815640434"
       },
       {
         "file": "angular.json",
@@ -88,11 +88,11 @@
       },
       {
         "file": "src/app/app-routing.module.ts",
-        "hash": "6314981189268698826"
+        "hash": "2761419842767691564"
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "18076344735453585807"
+        "hash": "13968880743329720410"
       },
       {
         "file": "src/app/app.component.scss",
@@ -104,11 +104,11 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "17989703748482062235"
+        "hash": "11721000226361373504"
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "15736044896780319341"
+        "hash": "2783286421133270413"
       },
       {
         "file": "src/app/errors/errors.component.html",
@@ -165,18 +165,6 @@
       {
         "file": "src/app/formatter/formatter.service.ts",
         "hash": "9045991813887179727"
-      },
-      {
-        "file": "src/app/forms/form-test/form-test.component.html",
-        "hash": "12697276441346318718"
-      },
-      {
-        "file": "src/app/forms/form-test/form-test.component.scss",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "src/app/forms/form-test/form-test.component.ts",
-        "hash": "11201965959460474353"
       },
       {
         "file": "src/app/forms/form-view-child/dictionary.service.spec.ts",
@@ -435,24 +423,8 @@
         "hash": "13567853238001864667"
       },
       {
-        "file": "src/app/signal/signal-inputs/signal-inputs.component.html",
-        "hash": "12357865357344565657"
-      },
-      {
-        "file": "src/app/signal/signal-inputs/signal-inputs.component.ts",
-        "hash": "1193428098363328756"
-      },
-      {
         "file": "src/app/stand/stand.component.html",
         "hash": "13156257890206167571"
-      },
-      {
-        "file": "src/app/stand/stand.component.scss",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "src/app/stand/stand.component.spec.ts",
-        "hash": "11627064932928900078"
       },
       {
         "file": "src/app/stand/stand.component.ts",

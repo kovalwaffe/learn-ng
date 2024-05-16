@@ -1,4 +1,7 @@
 ### Spis treści
+#### Angular
+##### Basic
+1. [Komponent standalone](src/app/stand) - czysty nowy komponent z zaimportowanym modułem `CommonModile`
 1. [ViewChild](src/app/flow-data/view-child) łapanie referencji i sprawdzanie jak dziła parametr `static`
 2. Zaawansowane formularze i synchornizacja danych miedzy nimi
 #### Dziedziczenie formularzy

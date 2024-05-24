@@ -21,44 +21,38 @@ import { SumFormsComponent } from './forms/form-view-child/sum-forms/sum-forms.c
 import { UserFormCreateComponent } from './forms/forms-inheritance/user-form/user-form-create/user-form-create.component';
 import { TestComponent } from './test/test.component';
 import { ErrorsComponent } from './errors/errors.component';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import {AsyncExampleComponent} from "./reactive/memory leaks/AsyncPipe/async-example/async-example.component";
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    InjectionTokenExampleComponent,
-    GridComponent,
-    CarDataComponent,
-    FormComponent,
-    UserFormComponent,
-    UserFormShowComponent,
-    UserFormCreateComponent,
-    ViewChildParentComponent,
-    ViewChildChildComponent,
-    SumFormsComponent,
-    OrderFormComponent,
-    DataPickerComponent,
-    ConsumerComponent,
-    ColdComponent,
-    TestComponent,
-    ErrorsComponent
-  ],
-    imports: [
-        BrowserModule,
+@NgModule({ declarations: [
+        AppComponent,
+        InjectionTokenExampleComponent,
+        GridComponent,
+        CarDataComponent,
+        FormComponent,
+        UserFormComponent,
+        UserFormShowComponent,
+        UserFormCreateComponent,
+        ViewChildParentComponent,
+        ViewChildChildComponent,
+        SumFormsComponent,
+        OrderFormComponent,
+        DataPickerComponent,
+        ConsumerComponent,
+        ColdComponent,
+        TestComponent,
+        ErrorsComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,
         StandComponent,
         ReactiveFormsModule,
-        HttpClientModule,
         AsyncExampleComponent,
-        AsyncExampleComponent
-    ],
-  providers: [
-    {provide: FILE_UPLOADER_GLOBAL_CONFIG, useValue: { url: 'my injected global url' }},
-    provideAnimationsAsync()
-  ],
-  bootstrap: [AppComponent]
-})
+        AsyncExampleComponent], providers: [
+        { provide: FILE_UPLOADER_GLOBAL_CONFIG, useValue: { url: 'my injected global url' } },
+        provideAnimationsAsync(),
+        provideHttpClient(withInterceptorsFromDi())
+    ] })
 export class AppModule {
 }

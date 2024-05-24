@@ -5,8 +5,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-stand',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './stand.component.html',
-  styleUrls: ['./stand.component.scss']
+  templateUrl: './stand.component.html'
 })
 export class StandComponent {
 

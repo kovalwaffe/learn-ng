@@ -24,6 +24,7 @@ import { ErrorsComponent } from './errors/errors.component';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import {AsyncExampleComponent} from "./reactive/memory leaks/AsyncPipe/async-example/async-example.component";
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { DeferComponent } from "src/app/flow-data/defer/defer.component";
 
 @NgModule({ declarations: [
         AppComponent,
@@ -45,11 +46,11 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
         ErrorsComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
-        AppRoutingModule,
-        StandComponent,
-        ReactiveFormsModule,
-        AsyncExampleComponent,
-        AsyncExampleComponent], providers: [
+    AppRoutingModule,
+    StandComponent,
+    ReactiveFormsModule,
+    AsyncExampleComponent,
+    AsyncExampleComponent, DeferComponent], providers: [
         { provide: FILE_UPLOADER_GLOBAL_CONFIG, useValue: { url: 'my injected global url' } },
         provideAnimationsAsync(),
         provideHttpClient(withInterceptorsFromDi())

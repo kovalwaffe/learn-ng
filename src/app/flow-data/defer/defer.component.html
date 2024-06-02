@@ -1,0 +1,6 @@
+<button (click)="loadData()">Załaduj dane</button>
+@defer (when dataLoaded) {
+  <div>
+    Dane zostały załadowane: {{ data }}
+  </div>
+}

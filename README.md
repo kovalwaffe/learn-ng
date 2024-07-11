@@ -1,27 +1,44 @@
-# LearnNg
+### Przykłady w Angularze
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+### Basic
 
-## Development server
+1. [Komponent standalone](src/app/stand) - czysty nowy komponent z zaimportowanym modułem `CommonModile`
+2. Input komponetu poprzez [Dekorator @Input](/src/app/basic/@input/input-decorator/input-decorator.component.ts) oraz funkcje [input()](/src/app/basic/@input/input-function/input-function.component.ts) (Signal)
+1. [ViewChild](src/app/flow-data/view-child) łapanie referencji i sprawdzanie jak dziła parametr `static`
+2. Zaawansowane formularze i synchornizacja danych miedzy nimi
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### Dziedziczenie formularzy
 
-## Code scaffolding
+[Dziedziczenie formularzy](src/app/forms-inheritance) - użycie dziedziczenia, gdzie komponenty potomne posiadają różne widoki, a komponent bazowy nie ma widoku lecz agreguje całą logikę:
+Form component - odpowida za prezentacje obu stanów formulrzy:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- user-form-create: komponent z templatka do dodawania
+- user-form-show: komponent z templatka do wyswietlania
+- user-form: Gdzie logika jest w komponencie bez widoku:
 
-## Build
+### Templates
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Routing
 
-## Running unit tests
+### Forms
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Dziedziczenie formularzy
 
-## Running end-to-end tests
+[Dziedziczenie formularzy](src/app/forms-inheritance) - użycie dziedziczenia, gdzie komponenty potomne posiadają różne widoki, a komponent bazowy nie ma widoku lecz agreguje całą logikę:
+Form component - odpowida za prezentacje obu stanów formulrzy:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- user-form-create: komponent z templatka do dodawania
+- user-form-show: komponent z templatka do wyswietlania
+- user-form: Gdzie logika jest w komponencie bez widoku:
 
-## Further help
+#### Synchronizacja za pomoca `ViewChild`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### RxJS
+
+### Lifecucle hooks
+
+### Design patterns
+
+#### Singelton
+
+[singleton](/src/app/design%20pattrens/singleton) - używane w serwisach do dzielenia się ta samą informacją

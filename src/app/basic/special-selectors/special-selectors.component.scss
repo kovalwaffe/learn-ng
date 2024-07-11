@@ -1,0 +1,21 @@
+:host(.active) {
+  border: 1px blue solid;
+  width: 300px;
+  height: 300px;
+  display: block;
+}
+
+// <body class="modal-opened">
+//   ...
+//     <app-super-awesome></app-super-awesome>
+//   ...
+// </body>
+
+:host-context(.modal-opened) {
+  visibility: visible;
+}
+
+::ng-deep .picture {
+  border: 1px black solid;
+  max-width: 100%;
+}

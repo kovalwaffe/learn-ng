@@ -1,13 +1,11 @@
-import { Injectable } from "@angular/core";
-import { Store } from "src/app/RxJS/Store/state/abstract.store";
-import { UserState } from "src/app/RxJS/Store/models";
-
+import { Injectable } from '@angular/core';
+import { UserState } from '../../models';
+import { Store } from '../abstract.store';
 
 const initialState: UserState = {
-  IsLoading: false,
-  username : '',
-  email    : '',
-  password : '',
+  isLoading: false,
+  users: [],
+  isLoaded: false
 }
 
 @Injectable({providedIn: 'root'})

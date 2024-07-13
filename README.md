@@ -18,6 +18,8 @@ Form component - odpowida za prezentacje obu stanów formulrzy:
 
 ### Templates
 
+[@let](./src/app/templates/@let/let-variable/let-variable.component.html) - deklaracja zmiennej w zasiegu bloku. Zalety: skrócenie zapisu odnoszenia sie do zagniezdzonych elementów object. Poprawa czylenosci i przeniesienie logiki do zminnej `@let`
+
 ### Routing
 
 ### Forms

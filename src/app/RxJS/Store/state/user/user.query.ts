@@ -1,13 +1,13 @@
 import { Inject, Injectable } from '@angular/core';
-import { UserState } from "src/app/RxJS/Store/models";
-import { Query } from "src/app/RxJS/Store/state/abstract.query";
-import { UserStore } from "src/app/RxJS/Store/state/user/user.store";
+import { UserStore } from './user.store';
+import { Query } from '../abstract.query';
+import { UserState } from '../../models';
 
 
 @Injectable({providedIn: 'root'})
 export class UserQuery extends Query<UserState> {
 
-  constructor(@Inject(UserStore) private store: UserStore) {
+  constructor(@Inject(UserStore) store: UserStore) {
     super(store);
   }
 }

@@ -1,5 +1,6 @@
-import { BehaviorSubject } from "rxjs";
-import { AbstractState } from "src/app/RxJS/Store/models";
+import { BehaviorSubject } from 'rxjs';
+import { AbstractState } from '../models';
+
 
 export abstract class Store<T extends AbstractState> {
   protected constructor(private readonly initialState: T) {}

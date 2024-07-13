@@ -1,7 +1,7 @@
 import type { Observable } from 'rxjs';
 import { map } from 'rxjs';
-import { Store } from "src/app/RxJS/Store/state/abstract.store";
-
+import { AbstractState } from '../models';
+import { Store } from './abstract.store';
 
 export abstract class Query<T extends AbstractState> {
   protected constructor(private readonly store: Store<T>) {}
@@ -11,6 +11,6 @@ export abstract class Query<T extends AbstractState> {
   }
 
   get isLoading$(): Observable<boolean> {
-    return this.store.state$.pipe(map(({ isLoading }) => isLoading));
+    return this.store.state$.pipe(map(({isLoading}) => isLoading));
   }
 }

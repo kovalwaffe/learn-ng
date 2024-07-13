@@ -1,0 +1,21 @@
+<div>
+  @let name = 'Pablo';
+  @if (name) {
+    <p>{{ name }}</p>
+  };
+
+  @let myName = user$ | async;
+  @if (myName) {
+    <p>{{ myName }}</p>
+  };
+
+  @if (account) {
+    @let myStyle = {'outOfAccount': account === 0, 'lowAccount': account < 10, 'good': account >= 10};
+    <div [ngClass]=myStyle> Account: {{ account }} </div>
+  }
+</div>
+<!--1 sposob jest lepszy bo raz sie odnosmy do signal-->
+<!--@let snack = selectedSnackSignal()-->
+<!--if(snack) {}-->
+<!--vs-->
+<!--@if (selectedSnackSignal(); as snack) { }-->

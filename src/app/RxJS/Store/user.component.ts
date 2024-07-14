@@ -3,11 +3,16 @@ import { UserService } from './user.service';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { UserQuery } from './state/user';
 import { connectState } from './state/lib';
+import { MatProgressSpinner } from '@angular/material/progress-spinner';
+import { NgTemplateOutlet } from '@angular/common';
 
 @Component({
   selector: 'app-user',
   standalone: true,
-  imports: [],
+  imports: [
+    MatProgressSpinner,
+    NgTemplateOutlet
+  ],
   templateUrl: './user.component.html'
 })
 export class UserComponent implements OnInit {

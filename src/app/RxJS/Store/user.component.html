@@ -1,1 +1,12 @@
-<p>user works!</p>
+@if (state.isLoading) {
+  <mat-spinner></mat-spinner>
+}
+<ng-container *ngTemplateOutlet="content" />
+
+<ng-template #content>
+  <ul>
+    @for (user of state.users; track user.username) {
+      <li> Imie: {{ user.username }} e-mail: {{ user.email }}</li>
+    }
+  </ul>
+</ng-template>

@@ -2,9 +2,9 @@ import { Component, effect, input } from '@angular/core';
 import { Player } from '../model';
 
 
-function currencyTransform(value: number): number {
-  return Math.round(value * 100) / 100
-}
+// function currencyTransform(value: number): number {
+//   return Math.round(value * 100) / 100
+// }
 
 @Component({
   selector: 'app-input-function',

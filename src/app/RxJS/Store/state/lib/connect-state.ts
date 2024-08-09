@@ -23,7 +23,7 @@ export function connectState<T>(destroyRef: DestroyRef, sources: RestrictedKeys<
     loading: {}
   } as StateObject<T>;
 
-  const sourceKeys = Object.keys(sources) as Array<keyof T>;
+  const sourceKeys = Object.keys(sources) as (keyof T)[];
   for (const key of sourceKeys) {
     sink.$[key] = new ReplaySubject<T[keyof T]>(1);
     sink.loading[key] = true;
@@ -48,7 +48,6 @@ export function connectState<T>(destroyRef: DestroyRef, sources: RestrictedKeys<
   ).pipe(takeUntilDestroyed(destroyRef))
     // This will be used in many places so to provide
     // performance over readability:
-    // eslint-disable-next-line rxjs/no-subscribe-handlers
     .subscribe(() => cdRef.markForCheck());
 
   return sink;

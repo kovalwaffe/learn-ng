@@ -6,11 +6,12 @@ import { SpecialSelectorsComponent } from './basic/special-selectors/special-sel
 import { LetVariableComponent } from './templates/@let/let-variable/let-variable.component';
 import { UserComponent } from './RxJS/Store';
 import { BasicComponent } from './TS/ts-pattern/basic/basic.component';
+import { CounterComponent } from './Signals/counter/counter.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, UseSingletonComponent, UseInputComponent, SpecialSelectorsComponent, LetVariableComponent, UserComponent, BasicComponent],
+  imports: [RouterOutlet, UseSingletonComponent, UseInputComponent, SpecialSelectorsComponent, LetVariableComponent, UserComponent, BasicComponent, CounterComponent],
   templateUrl: './app.component.html'
 })
 export class AppComponent {

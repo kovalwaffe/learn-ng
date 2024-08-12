@@ -2,10 +2,17 @@
 
 ### Basic
 
-1. [Komponent standalone](src/app/stand) - czysty nowy komponent z zaimportowanym modułem `CommonModile`
-2. Input komponetu poprzez [Dekorator @Input](/src/app/basic/@input/input-decorator/input-decorator.component.ts) oraz funkcje [input()](/src/app/basic/@input/input-function/input-function.component.ts) (Signal)
-1. [ViewChild](src/app/flow-data/view-child) łapanie referencji i sprawdzanie jak dziła parametr `static`
-2. Zaawansowane formularze i synchornizacja danych miedzy nimi
+1. @Input komponetu poprzez tradycyjny [Dekorator @Input](/src/app/basic/@input/input-decorator/input-decorator.component.ts) oraz nową funkcje [input()](/src/app/basic/@input/input-function/input-function.component.ts) (Signal)
+2. Specjalne [selektory](/src/app/basic/special-selectors/special-selectors.component.scss) takie jak `:host`, `:host-content`, `::ng-deep`
+3. [ViewChild](src/app/flow-data/view-child) łapanie referencji i sprawdzanie jak działa parametr `{static: true}`
+
+### Signals
+
+1.
+
+### Adwenced
+
+5. Zaawansowane formularze i synchornizacja danych miedzy nimi
 
 #### Dziedziczenie formularzy
 

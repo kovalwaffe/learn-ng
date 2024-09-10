@@ -1,4 +1,4 @@
-### Przykłady w Angularze
+## Przykłady w Angularze
 
 ### Basic
 
@@ -51,3 +51,12 @@ Form component - odpowida za prezentacje obu stanów formulrzy:
 #### Singelton
 
 [singleton](/src/app/design%20pattrens/singleton) - używane w serwisach do dzielenia się ta samą informacją
+
+## Przykłady w TS
+
+Dekoratory
+
+- [decoratror klasy](./src/app/TS/decorator/class-decorator/my.ts)
+- [decoratror metody](./src/app/TS/decorator/method-decorator/method-decorator.ts)
+- [decoratrory getterów i setterów](./src/app/TS/decorator/getter-decorator)
+- [decoratrory właściwości](//src/app/TS/decorator/property-decorator/initialization.ts)

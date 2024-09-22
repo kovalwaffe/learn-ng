@@ -1,5 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function capitalize(
   value: string,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   context: ClassAccessorDecoratorContext
 ) {
   return {
@@ -18,7 +20,7 @@ function capitalize(
 }
 
 class Book {
-  @capitalize
+  // @capitalize
   accessor title: string = '';
 }
 

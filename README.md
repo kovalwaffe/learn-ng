@@ -10,7 +10,7 @@
 
 1.
 
-### Adwenced
+### Advanced
 
 5. Zaawansowane formularze i synchornizacja danych miedzy nimi
 

@@ -1,0 +1,6 @@
+<!-- Shorthand syntax: -->
+<!--<p *appSelect="let data from source" [selectFrom]="source" class="data-view">The data is: {{ data }}</p>-->
+<!-- Long-form syntax: -->
+<ng-template [selectFrom]="source" let-data>
+  <p class="data-view">The data is: {{ data }}</p>
+</ng-template>

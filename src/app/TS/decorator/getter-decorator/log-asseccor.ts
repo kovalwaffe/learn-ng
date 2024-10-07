@@ -1,22 +1,27 @@
-function LogAccessor(target: any, context: ClassAccessorDecoratorContext) {
-  let value: any;
+function LogAccessor(
+  target: undefined,
+  context: ClassAccessorDecoratorContext
+) {
+  const propertyName = String(context.name); // Ensure property name is a string
+
   return {
-    get() {
-      console.log(`Accessing value: ${String(context.name)}`);
-      return value;
+    get(this: Record<string, string>): string {
+      console.log(`Accessing value: ${propertyName}`);
+      return this[`#${propertyName}`];
     },
-    set(newValue: any) {
-      console.log(`Setting value for ${String(context.name)} to ${newValue}`);
-      value = newValue;
+    set(this: Record<string, string>, newValue: string): void {
+      console.log(`Setting value for ${propertyName} to ${newValue}`);
+      this[`#${propertyName}`] = newValue;
     },
-    init(initialValue: any) {
-      console.log(`Initializing ${String(context.name)} with ${initialValue}`);
+    init(initialValue: string): string {
+      console.log(`Initializing ${propertyName} with ${initialValue}`);
       return initialValue;
     }
   };
 }
 
 class Person {
+  // @ts-ignore
   @LogAccessor
   accessor name: string;
 

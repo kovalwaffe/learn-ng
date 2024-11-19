@@ -1,0 +1,11 @@
+<div>
+  @for (task of tasks(); track task.title; let index = $index) {
+    @if (task.taskState === 'NEW') {
+      <h1>Zadanie nr {{ index + 1 }} : {{ task.title }}</h1>
+      <h2>{{ task.taskState }}</h2>
+      <button (click)="markAsDone(task)">Usun to zadanie</button>
+    }
+  } @empty {
+    <pre> Ni ma zadań</pre>
+  }
+</div>

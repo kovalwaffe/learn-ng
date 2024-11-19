@@ -1,10 +1,9 @@
 import { Component, computed, signal } from '@angular/core';
 
 @Component({
-  selector: 'app-signal-store',
-  standalone: true,
-  imports: [],
-  template: `
+    selector: 'app-signal-store',
+    imports: [],
+    template: `
     <!--to jest kod deklaratywny-->
     <!--aktualizacja w templatce nastepuje zawsze jak sie zmieni wartość-->
     <p>{{ item() }} </p>

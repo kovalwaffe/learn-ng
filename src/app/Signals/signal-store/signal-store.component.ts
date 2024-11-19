@@ -27,7 +27,7 @@ import { Component, computed, signal } from '@angular/core';
       {{ newItem.toUpperCase() }}
     }
 
-    <p>last: {{ lastItem()?.name }}</p>
+    <p>last: {{ lastItem().name }}</p>
 
     <p>filtruje po : {{ nameFilter() }}</p>
     <ul>

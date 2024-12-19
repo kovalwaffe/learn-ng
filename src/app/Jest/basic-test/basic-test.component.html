@@ -1,0 +1,8 @@
+<p>basic-test works!</p>
+<p>{{ name }}</p>
+
+<ul>
+  @for (student of $students(); track student.id) {
+    <li>{{ student.id }}: {{ student.name }} ma {{ student.age }}</li>
+  }
+</ul>

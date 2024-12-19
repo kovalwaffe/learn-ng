@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { SignalStoreComponent } from './Signals/signal-store/signal-store.component';
+import { BasicTestComponent } from "./Jest/basic-test/basic-test.component";
 
 @Component({
     selector: 'app-root',
-    imports: [SignalStoreComponent],
+  imports: [BasicTestComponent],
     templateUrl: './app.component.html'
 })
 export class AppComponent {}

@@ -4,6 +4,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { UserQuery } from './state/user';
 import { connectState } from './state/lib';
 import { NgTemplateOutlet } from '@angular/common';
+import { MatProgressSpinner } from "@angular/material/progress-spinner";
 
 @Component({
     selector: 'app-user',

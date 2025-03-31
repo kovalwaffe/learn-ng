@@ -3,10 +3,9 @@ import { of } from 'rxjs';
 import { AsyncPipe, CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-let-variable',
-  standalone: true,
-  imports: [CommonModule, AsyncPipe],
-  templateUrl: './let-variable.component.html'
+    selector: 'app-let-variable',
+    imports: [CommonModule, AsyncPipe],
+    templateUrl: './let-variable.component.html'
 })
 export class LetVariableComponent {
   readonly user$ = of('Paweł')

@@ -7,10 +7,9 @@ import { Player } from '../model';
 // }
 
 @Component({
-  selector: 'app-input-function',
-  standalone: true,
-  imports: [],
-  templateUrl: './input-function.component.html',
+    selector: 'app-input-function',
+    imports: [],
+    templateUrl: './input-function.component.html'
 })
 export class InputFunctionComponent {
   player = input.required<Player>();

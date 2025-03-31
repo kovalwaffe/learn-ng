@@ -3,13 +3,12 @@ import { InputFunctionComponent } from "../input-function/input-function.compone
 import { InputDecoratorComponent } from "../input-decorator/input-decorator.component";
 
 @Component({
-  selector: 'app-use-input',
-  standalone: true,
-  imports: [
-    InputFunctionComponent,
-    InputDecoratorComponent
-  ],
-  templateUrl: './use-input.component.html',
+    selector: 'app-use-input',
+    imports: [
+        InputFunctionComponent,
+        InputDecoratorComponent
+    ],
+    templateUrl: './use-input.component.html'
 })
 export class UseInputComponent {
 

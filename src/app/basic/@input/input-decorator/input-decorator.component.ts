@@ -6,13 +6,10 @@ function currencyTransform(value: number): number {
   return Math.round(value * 100) / 100
 }
 
-const imports = [CurrencyPipe];
-
 @Component({
-  selector: 'app-input-decorator',
-  standalone: true,
-  imports,
-  templateUrl: './input-decorator.component.html',
+    selector: 'app-input-decorator',
+    imports: [CurrencyPipe],
+    templateUrl: './input-decorator.component.html'
 })
 export class InputDecoratorComponent implements OnChanges {
   @Input({required: true}) player!: Player;
